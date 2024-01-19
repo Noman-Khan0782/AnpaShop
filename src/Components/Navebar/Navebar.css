@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin: 0;
+    
+}
+.navebar{
+   display: flex;
+   justify-content: space-around;
+   box-shadow: 0 3px 3px -2px rgb(80, 79, 79);
+   background-color: rgb(228, 230, 230);
+}
+.navebar:hover{
+    background-color: white;
+}
+.p{
+    font-weight: bold;
+    color:rgb(199, 108, 22);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nave-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+        height: 70px;
+        width: 70px;
+}
+.nave-logo p{
+    display: flex;
+    color: rgb(55, 3, 100);
+    font-weight: bold;
+    font-size:larger;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+}
+.nave-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 60px;
+    color:rgb(111, 114, 114)
+}
+.nave-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.nave-menu li:hover{
+    color: orangered;
+    
+    
+}
+.nave-menu hr{
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    padding-right: 2px;
+    border: 2px;
+    background: orangered;
+    
+}
+
+.nave-login{
+    display: flex;
+    align-items: center;
+   gap: 20px;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    color: rgb(120, 190, 190);
+    border-radius: 20%;
+}
+.nave-login button{
+    width: 110px;
+    height: 40px;
+   
+}
+.nave-login button:hover{
+background-color:orangered;
+color: white;
+}
+.cart-count{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -70px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+}
+
+.login{
+    width: 157%;
+    height: 58%;
+    border-radius: 75px;
+    outline: none;
+    border: 1px solid rgb(209, 203, 203);
+    color:rgb(111, 114, 114);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+
+
